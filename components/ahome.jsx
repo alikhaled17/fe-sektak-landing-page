@@ -2,17 +2,15 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-
-import feSektakLogo from '../assets/images/fe-sektak-logo.png';
-import ourHero from '../assets/images/fe-sektak-traveller.png';
-import makeMony from '../assets/images/make-mony.jpg';
-import pricingImg from '../assets/images/pricing.jpg';
-import selectingImg from '../assets/images/selecting.jpg';
-import locatingImg from '../assets/images/locating.jpg';
-import faqsImg from '../assets/images/faqs.jpg';
-
-import ContactPage from './contact';
-import { Carousel } from "react-bootstrap";
+import feSektakLogo from '../assets/images/fe-sektak-logo.png'
+import ourHero from '../assets/images/fe-sektak-traveller.png'
+import makeMony from '../assets/images/make-mony.jpg'
+import pricingImg from '../assets/images/pricing.jpg'
+import selectingImg from '../assets/images/selecting.jpg'
+import locatingImg from '../assets/images/locating.jpg'
+import faqsImg from '../assets/images/faqs.jpg'
+import ContactPage from './contact'
+import { Carousel } from 'react-bootstrap'
 
 export default function HomePage() {
     
@@ -111,10 +109,7 @@ export default function HomePage() {
                 <div className="get-touch">
                     <ContactPage />
                 </div>
-
-                
-
-            </div>
+                </div>
            
             
         </>
