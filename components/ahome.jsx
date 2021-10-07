@@ -20,7 +20,7 @@ export default function HomePage() {
            <div className="container m-auto home-page row">
                 <div className="row">
                     <div className="welcome-text col-lg-6">
-                        <h1> <span>Fe Sektak</span> <br /> Make shipping more easy</h1>
+                        <h2> <span>Fe Sektak</span> <br /> Make shipping more easy</h2>
                         <p>
                             set your price and find the suitable traveller's trip ..
                         </p>   

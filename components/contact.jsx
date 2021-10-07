@@ -103,8 +103,8 @@ export default function ContactPage() {
                                     className="form-control mb-1"
                                 />
                             </div>
-                            <div className="col-12">
-                                <label className="label fw-bold text-secondary">
+                            <div className="col-12 form-group ">
+                                <label className="label  fw-bold text-secondary">
                                     Message
                                 </label>
                                 <textarea

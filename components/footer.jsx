@@ -6,7 +6,9 @@ export default function Footer() {
             <div className="card text-center">
                 <div className="card-body">
                     <h5 className="card-title">Thank you for visiting our site</h5>
-                    <p className="card-text">W  ith supporting text below as a natural lead-in to additional content.</p>
+                    <p className="card-text">
+                        &copy; compyrights Transformers - 2021
+                    </p>
                 </div>
             </div>
         </>

@@ -39,7 +39,6 @@
 
 .navbar .nav-brand .brand-name {
   font-weight: 500;
-  font-family: "Harlow Solid";
   font-size: 24px;
   margin: 0 0 5px 10px;
 }
@@ -225,10 +224,9 @@
   font-weight: bold;
   margin-bottom: -5px;
 }
-.nav-menue .side-menue .side-header-info span {
+.nav-menue .side-menue .side-header-info .header-text > span {
   color: #727272;
   font-size: 14px;
-  opacity: 0.8;
   margin-top: 0;
 }
 

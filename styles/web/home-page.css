@@ -5,14 +5,14 @@
 .home-page .welcome-text {
   padding: 3% 0;
 }
-.home-page .welcome-text h1 {
+.home-page .welcome-text h2 {
   font-size: 45px;
   font-weight: bold;
   color: #071a36;
   margin: 0 0 2% 0;
 }
 
-.home-page .welcome-text h1 span {
+.home-page .welcome-text h2 span {
   color: #2fa1db;
 }
 
@@ -55,7 +55,7 @@
     order: 2;
   }
 
-  .home-page .welcome-text h1 {
+  .home-page .welcome-text h2 {
     font-size: 30px;
     font-weight: bold;
     color: #071a36;
