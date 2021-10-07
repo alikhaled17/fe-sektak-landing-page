@@ -1,0 +1,57 @@
+.prof-page {
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 850px) {
+  .prof-page {
+    margin-top: 15%;
+  }
+}
+
+.prof-page .pic {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #2fa1db;
+}
+
+.prof-page .identity {
+  margin-top: 15px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.prof-page .identity h3 {
+  color: #2fa1db;
+}
+
+.prof-page .profile-navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: -2px 4px 10px 2px rgb(2 144 191 / 6%);
+}
+
+.prof-page .profile-navbar span {
+  width: 33%;
+  color: #b4b2b2;
+  font-weight: bold;
+  padding: 10px 0;
+  border-top: 5px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.prof-page .profile-navbar span:hover {
+  border-top: 5px solid #8b8a8a;
+  color: #8b8a8a;
+}
+
+.prof-page .profile-navbar span.active {
+  color: #2fa1db;
+  border-top: 5px solid #2fa1db;
+}

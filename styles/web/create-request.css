@@ -1,0 +1,81 @@
+.create-request {
+  width: 50%;
+  margin: 3% auto;
+}
+
+.create-request label {
+  margin: 8px 0 3px;
+}
+
+.create-request h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2fa1db;
+}
+
+.create-request .images-preview ul {
+  list-style: none;
+  display: flex;
+  margin: 8px 0;
+  padding: 0;
+}
+
+.create-request .images-preview ul li {
+  position: relative;
+  width: 50px;
+  height: 60px;
+  border: 0.5px solid #2fa1db;
+  border-radius: 4px;
+  margin-right: 3px;
+  display: flex;
+}
+
+.create-request .images-preview ul li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  cursor: pointer;
+}
+
+.create-request .images-preview ul li span:hover {
+  background-color: #72727260;
+  color: #0c2b58;
+}
+
+.create-request .images-preview ul li.max-images {
+  background-color: #0c2b58;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.create-request .form-group.fly-label {
+  position: relative;
+}
+
+.create-request .form-group.fly-label .custom-label {
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+  color: #72727260;
+  font-weight: bold;
+}
+
+.create-request .btn-primary {
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .create-request {
+    width: 99%;
+    margin: 0 auto;
+  }
+}

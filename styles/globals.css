@@ -1,0 +1,55 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+@import url("./web/loader-page.css");
+@import url("./web/login-page.css");
+@import url("./web/navbar.css");
+@import url("./web/home-page.css");
+@import url("./web/prof-page.css");
+@import url("./web/request-details.css");
+@import url("./web/contact.css");
+@import url("./web/create-request.css");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: #2fa1db !important;
+  border-radius: 4px !important;
+}
+
+.btn-primary:hover {
+  background-color: #247ba7 !important;
+}
+
+input {
+  border-radius: 4px !important;
+}
+
+/* .container {
+  width: 70% !important ;
+} */
+
+.custom-container {
+  width: 50%;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    width: 99% !important ;
+  }
+}

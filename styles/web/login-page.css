@@ -1,0 +1,103 @@
+.login-page {
+  margin: 0 auto;
+  text-align: center;
+  color: #071a36;
+}
+
+.login-page .login-pic {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 190px;
+  margin-top: 1%;
+}
+
+.login-page .form-group {
+  width: 45%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+  .login-page .login-pic {
+    margin-top: 15%;
+  }
+
+  .login-page .form-group {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.login-page .input-group-text,
+.login-page .input-group-prepend {
+  border-radius: 4px 0 0 4px !important;
+}
+
+.login-page .custom-form-control {
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.login-page .custom-form-control::-webkit-outer-spin-button,
+.login-page .custom-form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+  margin: 0;
+}
+.login-page .price-form-control::-webkit-outer-spin-button,
+.login-page .price-form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+  margin: 0;
+}
+
+.login-page .not-have-account span a {
+  font-weight: bold;
+  color: #135b77;
+  text-decoration: underline;
+  opacity: 0.8;
+  margin-left: 3px;
+}
+
+.login-page .not-have-account span a:hover {
+  opacity: 1;
+}
+
+.login-page .input-img {
+  background-color: #121f2b;
+  border: 2px solid #121f2b;
+  padding: 0px 15px 0px 10px;
+  color: ivory;
+}
+.login-page .input-img::-webkit-file-upload-button {
+  background-color: white;
+  border-radius: 15px;
+  border: 0px;
+  padding: 8px 15px 8px 5px;
+}
+
+.login-page .req-img {
+  background-color: #121f2b;
+  border: 2px solid #121f2b;
+  padding: 0px 15px 0px 0px;
+  color: ivory;
+}
+.login-page .req-img::-webkit-file-upload-button {
+  background-color: white;
+  border-radius: 15px;
+  border: 0px;
+  padding: 8px 15px 8px 5px;
+}
+
+.login-page textarea {
+  width: 45%;
+  margin: 0 auto;
+  height: 150px;
+}
+.login-page .title {
+  color: #2fa1db;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.no-offers p {
+  text-align: center;
+}
