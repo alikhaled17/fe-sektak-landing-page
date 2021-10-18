@@ -1,3 +1,3 @@
 # fe-sektak-landing-page
 
-fe-sektak lag page
+fe-sektak landing page
