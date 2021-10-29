@@ -58,7 +58,7 @@ export default function ContactPage() {
                         </div>
                     </div>
                     <div className=" direct-contact">
-                        <h4 className="text-secondary fw-bold">Get touch</h4>
+                        <h4 className="text-secondary fw-bold">Get in touch</h4>
                         <hr />
                         <form className=" contact-form row" onSubmit={sendEmail}>
                             <div className="col-lg-6 col-sm-12 form-group">

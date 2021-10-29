@@ -50,6 +50,28 @@
   color: #2fa1db;
 }
 
+.home-page .land-cards > div {
+    padding: 4px;
+}
+
+
+.home-page .land-cards .main-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2fa1db;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.home-page .land-cards .main-card p {
+  color: #fff;
+}
+
 @media screen and (max-width: 850px) {
   .home-page .welcome-text {
     order: 2;

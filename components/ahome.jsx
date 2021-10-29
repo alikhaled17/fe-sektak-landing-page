@@ -2,8 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
+
 import feSektakLogo from '../assets/images/fe-sektak-logo.png'
-import ourHero from '../assets/images/fe-sektak-traveller.png'
+import boxesImg from '../assets/images/boxes.png'
+import shipmentImg from '../assets/images/shipment.png'
+import travelImg from '../assets/images/travel.png'
+import deliveryImg from '../assets/images/delivery.png'
 import makeMony from '../assets/images/make-mony.jpg'
 import pricingImg from '../assets/images/pricing.jpg'
 import selectingImg from '../assets/images/selecting.jpg'
@@ -11,6 +15,7 @@ import locatingImg from '../assets/images/locating.jpg'
 import faqsImg from '../assets/images/faqs.jpg'
 import ContactPage from './contact'
 import { Carousel } from 'react-bootstrap'
+
 
 export default function HomePage() {
     
@@ -38,7 +43,40 @@ export default function HomePage() {
                 </div>
                 <div className="fe-sktak-pic col-lg-6">
                         <div className="logo-pic">
-                            <Image src={ourHero} width={500} height={364} alt="our-hero" />
+                            <div className="land-cards row">
+                                <div className="col-6">
+                                    <div className="main-card">
+                                        <a href="#">
+                                            <Image width="75" height="75" src={shipmentImg} alt="land-card-1" />
+                                            <p>Create shipment</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="col-6">
+                                    <div className="main-card">
+                                        <a href="#">
+                                            <Image width="75" height="75" src={travelImg} alt="land-card-2" />
+                                            <p>Trips</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="col-6">
+                                    <div className="main-card">
+                                        <a href="#">
+                                            <Image width="75" height="75" src={deliveryImg} alt="land-card-1" />
+                                            <p>Receive</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="col-6">
+                                    <div className="main-card">
+                                        <a href="#">
+                                            <Image width="75" height="75" src={boxesImg} alt="land-card-1" />
+                                            <p>Shipments</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                       
                     </div> 
